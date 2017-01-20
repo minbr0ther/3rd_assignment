@@ -1,0 +1,59 @@
+.mainHeader {
+	margin-top:5%;
+	text-align: center;
+}
+
+.userId, .myName {
+	font-size:1.2em;
+	font-weight: bold;
+}
+
+.userSNSInfo, .userMessage {
+	font-size:0.9em;
+	margin:5px 0px;
+	padding-left:0px;
+	color:gray;
+}
+
+.userSNSInfo li,
+.eleDisplayShow ul li {
+	display: inline-block;
+}
+
+.userSNSInfo li{
+	margin-right: 10px;
+}
+
+.count {
+	color:#46c646;
+}
+
+nav{
+	margin-top:5%;
+	margin-left:10%; 
+}
+
+nav div{
+	float:left;
+	border:1px solid lightgray;
+	border-left-width: 0px;
+	width:20%;
+	height:15%;
+	padding:14px;
+	text-align:center;
+}
+
+#position {
+	border-left-width: 1px;
+}
+
+.eleDisplayShow {
+	padding:80px 140px;
+}
+
+.eleDisplayShow ul li{
+	display: inline-block;
+	line-height:200%;
+}
+
+
