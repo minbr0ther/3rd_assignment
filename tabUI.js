@@ -1,4 +1,4 @@
-function inputJason(getSomething,jasonURL) {
+function inputJason(getSomething,jsonURL) {
 
 	var oReq = new XMLHttpRequest();
 	oReq.addEventListener("load", function(evt){
@@ -20,7 +20,7 @@ function inputJason(getSomething,jasonURL) {
 		getMyDesc.insertAdjacentHTML('beforeend',getJson.body);
 		
 	});
-	oReq.open("GET", jasonURL);
+	oReq.open("GET", jsonURL);
 	oReq.send();
 }
 
